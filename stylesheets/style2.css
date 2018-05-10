@@ -1,0 +1,70 @@
+body {
+  font-family: helvetica, sans-serif;
+  background-image: url('../images/lines2.png');
+}
+
+.nav {
+  height: 20vh;
+}
+
+.nav-list {
+  float: right;
+  margin-right: 60px;
+}
+
+.nav-list > li{
+  font-weight: 800;
+  display: inline-block;
+  margin: 20px 5px;
+}
+
+.underline {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #13C0C6;
+}
+
+p {
+  color: #13C0C6;
+}
+
+input {
+  margin-left: 55px;
+  border: 5px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+input:hover {
+  background-color: #13C0C6;
+}
+
+.centered{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hello {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 8px;
+
+}
+
+.profession {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 67px;
+}
