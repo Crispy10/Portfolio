@@ -26,6 +26,7 @@ body {
 
 .underline {
   text-decoration: none;
+  color: inherit;
 }
 
 a:visited {
@@ -121,22 +122,11 @@ align-items: center;
   margin-top: 10px;
 }
 
-.imagesplash {
-  height: 50vh;
-  float: left;
+.imagepurr {
+  height: 80vh;
+  float: right;
   margin-top: 150;
-}
-
-.imagehom {
-  height: 50vh;
-  float: left;
-  margin-top: 250;
-}
-
-.imageest {
-  height: 50vh;
-  float: left;
-  margin-top: 250;
+  margin-right: -260px;
 }
 
 .number2 {
